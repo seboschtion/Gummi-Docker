@@ -1,4 +1,4 @@
-FROM archlinux/base
+FROM archlinux:base
 
 RUN pacman -Syu --noconfirm git make texlive-most biber rubber python-pip
 RUN pip3 install gummi
